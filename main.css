@@ -1,0 +1,141 @@
+body {
+    font-family: roboto, sans-serif;
+    background-color: rgb(48, 48, 48);
+}
+
+.navbar {
+    background-color: rgb(12, 12, 12);
+}
+
+#cabecalho h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+#cabecalho .nav .nav-link {
+    color: #fff;
+}
+
+.section-title {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-colored {
+    color: rgb(150, 7, 138);
+}
+
+.texto-branco {
+    color: #fff;
+    font-family: roboto, sans-serif;
+}
+
+.texto-personalizado {
+    color: rgb(241, 118, 252);
+    font-family: roboto, sans-serif;
+}
+
+#carousel img {
+    height: 80vh;
+}
+
+#carousel-aposta img {
+    height: 300px;
+}
+
+.carousel-inner #btn-aposta {
+    background-color: green;
+    font-weight: bolder;
+}
+
+.carousel-inner #btn-aposta:hover {
+    background-color: rgb(75, 158, 75);
+}
+
+p {
+    color: #fff;
+
+}
+
+#rodada-do-dia img {
+    height: 180px;
+}
+
+h5 {
+    color: #fff;
+}
+
+.nav-cardapio .nav-link.active {
+    background-color: #c2bfbf;
+    color: rgb(150, 7, 138)
+}
+
+#cabecalho .nav-pills .nav-link.active {
+    background-color: rgb(78, 77, 78);
+}
+
+.nav-cardapio .nav-link:hover {
+    color: rgb(150, 7, 138)
+}
+
+#rodada-do-dia #btn-aposta {
+    background-color: green;
+    font-weight: bolder;
+}
+
+#rodada-do-dia #btn-aposta:hover {
+    background-color: rgb(75, 158, 75);
+}
+
+#rodada-do-dia {
+    background-color: rgb(38, 39, 39);
+}
+
+#rodada-do-dia img {
+    width: 200px;
+    padding-right: 1px;
+}
+
+#fale-conosco button:hover {
+    background-color: rgb(241, 118, 252);
+}
+
+#fale-conosco button {
+    background-color:  rgb(150, 7, 138);
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    #carousel-aposta img{
+        height: 180px;
+    }
+    #rodada-do-dia img {
+        margin-top: 15px;
+        width: 200px;
+        
+    }
+    #rodada-do-dia img, #rodada-do-dia p, #rodada-do-dia h5, #rodada-do-dia #btn-aposta {
+        margin-left: 80px;
+    }
+    #rodada-do-dia #btn-aposta {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    #rodada-do-dia img {
+        width: 120px;
+        margin-right: 50px;
+        
+    }
+}
